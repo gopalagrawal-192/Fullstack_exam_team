@@ -4,7 +4,7 @@
   "private": true,
   "description": "Wishly - Custom Occasion Page Generator (W3Grads Full Stack Vibe Coding Examination, Problem Statement 02)",
   "engines": {
-    "node": ">=20.6.0"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -81,6 +81,10 @@
     "tailwindcss": "^3.4.17",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
-    "vitest": "^2.1.8"
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
+  },
+  "overrides": {
+    "postcss": "$postcss"
   }
 }
